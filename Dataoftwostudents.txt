@@ -1,0 +1,17 @@
+public class Dataoftwostudents {
+int rolln,phonen;
+        String add;
+    public static void main(String[] args){
+        
+        Dataoftwostudents sam=new Dataoftwostudents();
+        Dataoftwostudents john=new Dataoftwostudents();
+        sam.rolln=11;
+        sam.phonen=65785;
+        sam.add="djfjghjas";
+        john.rolln=21;
+        john.phonen=64372885;
+        john.add="djfjghjetsh";
+        System.out.println(sam.rolln+" "+sam.phonen+" "+ sam.add);
+        System.out.println(john.rolln+" "+john.phonen+" "+ john.add);
+    }
+}
